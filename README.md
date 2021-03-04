@@ -21,9 +21,18 @@ INSTALLATIONS:
   'modern-normalize/modern-normalize.css')
 - folder src => delete all except index.js and App.js
 - import React from 'react' in each component file
+- FOR SASS => npm install --save-dev sass => POSSIBLE ERROR => npm cache clear
+  --force, npm install --save-dev sass
+- create .env=> SASS_PATH=src
+- npm install --save-dev classnames
 - npm start => to develop
+- FOR FORMS ADDITIONAL: => npm install --save-dev shortid => import shortid from
+  'shortid' => id: shortid.generate()
+
+  ***
+
 - DEPLOY
-- git add . / commit / push
+
 - npm install --save-dev gh-pages
 - in package.json => - scripts => "homepage":
   "https://myusername.github.io/my-app"add to package.json => change to
@@ -32,7 +41,6 @@ INSTALLATIONS:
   "gh-pages -d build" => "scripts": { "start": "react-scripts start", "build":
   "react-scripts build", "test": "react-scripts test", "eject": "react-scripts
   eject", "predeploy": "npm run build", "deploy": "gh-pages -d build" },
+- git add . / commit / push
 - npm run deploy
 - add repository root to GitHub Website link
-
----
