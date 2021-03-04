@@ -20,14 +20,15 @@ INSTALLATIONS:
 - npm install --save-dev modern-normalize (in index.js => import
   'modern-normalize/modern-normalize.css')
 - folder src => delete all except index.js and App.js
-- import React from 'react' in each component file
+- import React from 'react' in each simple component
+- import React, { Component } from "react"; => for classes
 - FOR SASS => npm install --save-dev sass => POSSIBLE ERROR => npm cache clear
   --force, npm install --save-dev sass
 - create .env=> SASS_PATH=src
 - npm install --save-dev classnames
 - npm start => to develop
-- FOR FORMS ADDITIONAL: => npm install --save-dev shortid => import shortid from
-  'shortid' => id: shortid.generate()
+- FOR FORMS ADDITIONAL: => npm install --save-dev shortid ( or uuid )=> import
+  shortid from 'shortid' => id: shortid.generate()
 
   ***
 

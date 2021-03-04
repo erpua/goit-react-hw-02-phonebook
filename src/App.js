@@ -1,7 +1,24 @@
-import React from 'react';
+import React, { Component } from 'react';
 
-function App() {
-  return <h1>hw 2 phonebook</h1>;
+/* Libraries */
+/* import uuid from 'uuid'; */
+
+/* Components */
+import ContactForm from './components/ContactForm';
+import ContactList from './components/ContactList';
+import Filter from './components/Filter';
+
+class App extends Component {
+  render() {
+    return (
+      <>
+        <h1>APP</h1>;
+        <ContactForm />
+        <ContactList />
+        <Filter />
+      </>
+    );
+  }
 }
 
 export default App;
