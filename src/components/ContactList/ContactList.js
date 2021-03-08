@@ -18,6 +18,7 @@ class ContactList extends Component {
 
   render() {
     return (
+      // <ul className={styles.form}>
       <ul>
         {this.props.contacts.map(({ id, name, number }) => (
           <li key={id} className={styles.contactsListItem}>

@@ -31,6 +31,7 @@ class ContactForm extends Component {
     return (
       <form className={styles.main__form} onSubmit={this.handleSubmit}>
         <label className={styles.form__label}>
+          {/*  Name&nbsp;&nbsp;&nbsp;&nbsp; */}
           Name
           <input
             className={styles.form__input}
